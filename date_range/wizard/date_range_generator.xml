@@ -6,6 +6,7 @@
         <field name="arch" type="xml">
             <form string="Generate Date Ranges">
                 <sheet>
+                    <field name="company_id" invisible="True" />
                     <group>
                         <group col="2" colspan="4" string="Parameters">
                             <field name="type_id" />
